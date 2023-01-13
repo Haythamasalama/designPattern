@@ -16,18 +16,18 @@ Repo for Design Pattern Examples in Java
 
 ### Creational Pattern
 
-- [Builder](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Builder)
-- [Factory](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Factory)
-- [Prototype](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Prototype)
-- [Singleton](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Singleton)
+- [Builder](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Creational/Builder)
+- [Factory](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Creational/Factory)
+- [Prototype](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Creational/Prototype)
+- [Singleton](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Creational/Singleton)
 
 ### Structural Pattern
 
-- [Adapter](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Builder)
-- [Bridge](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Bridge)
-- [Composite](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Composite)
-- [Decorator](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Decorator)
-- [Facade](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Facade)
-- [Flyweight](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Flyweight)
-- [Proxy](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Proxy)
-- [Decorator](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Behavioral/Decorator)
+- [Adapter](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Adapter)
+- [Bridge](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Bridge)
+- [Composite](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Composite)
+- [Decorator](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Decorator)
+- [Facade](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Facade)
+- [Flyweight](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Flyweight)
+- [Proxy](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Proxy)
+- [Decorator](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Decorator)
