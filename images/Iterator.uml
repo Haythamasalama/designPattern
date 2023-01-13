@@ -1,71 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>Behavioral.Iterator</OriginalElement>
+  <OriginalElement>Iterator</OriginalElement>
   <nodes>
-    <node x="60.25" y="610.0">Behavioral.Iterator.Demo</node>
-    <node x="118.50757575757575" y="0.0">Behavioral.Iterator.Iterator</node>
-    <node x="10.5" y="140.5">Behavioral.Iterator.Collection</node>
-    <node x="133.625" y="344.0">Behavioral.Iterator.ConcreteCollection</node>
-    <node x="189.5" y="140.0">Behavioral.Iterator.ConcreteIterator</node>
+    <node x="279.6358695652174" y="735.0">Iterator.Demo</node>
+    <node x="413.04891304347825" y="185.0">Iterator.Collection</node>
+    <node x="62.49999999999997" y="185.0">Iterator.Iterator</node>
+    <node x="420.04891304347825" y="349.0">Iterator.ConcreteCollection</node>
+    <node x="54.49999999999997" y="349.0">Iterator.ConcreteIterator</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Behavioral.Iterator.ConcreteCollection" target="Behavioral.Iterator.ConcreteIterator" relationship="CREATE">
-      <point x="-15.0" y="-86.5" />
-      <point x="-102.875" y="58.5" />
+    <edge source="Iterator.ConcreteIterator" target="Iterator.ConcreteCollection" relationship="TO_ONE">
+      <point x="67.04891304347828" y="-58.5" />
+      <point x="256.54891304347825" y="568.0" />
+      <point x="526.0489130434783" y="568.0" />
+      <point x="0.0" y="143.5" />
     </edge>
-    <edge source="Behavioral.Iterator.Demo" target="Behavioral.Iterator.Collection" relationship="DEPENDENCY">
-      <point x="-44.75" y="-44.5" />
-      <point x="0.0" y="58.0" />
+    <edge source="Iterator.ConcreteCollection" target="Iterator.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-143.5" />
+      <point x="526.0489130434783" y="227.0" />
+      <point x="519.0489130434783" y="227.0" />
+      <point x="0.0" y="30.0" />
     </edge>
-    <edge source="Behavioral.Iterator.ConcreteIterator" target="Behavioral.Iterator.ConcreteCollection" relationship="TO_ONE">
-      <point x="-87.875" y="58.5" />
-      <point x="0.0" y="-86.5" />
+    <edge source="Iterator.Collection" target="Iterator.Iterator" relationship="DEPENDENCY">
+      <point x="-105.99991304347827" y="0.0" />
+      <point x="384.0" y="215.0" />
+      <point x="384.0" y="229.0" />
+      <point x="72.50000000000003" y="0.0" />
     </edge>
-    <edge source="Behavioral.Iterator.Demo" target="Behavioral.Iterator.Iterator" relationship="DEPENDENCY">
+    <edge source="Iterator.ConcreteIterator" target="Iterator.ConcreteCollection" relationship="DEPENDENCY">
+      <point x="82.04891304347828" y="-58.5" />
+      <point x="271.54891304347825" y="568.0" />
+      <point x="541.0489130434783" y="568.0" />
+      <point x="15.0" y="143.5" />
+    </edge>
+    <edge source="Iterator.ConcreteCollection" target="Iterator.Iterator" relationship="DEPENDENCY">
+      <point x="-105.99991304347827" y="0.0" />
+      <point x="384.0" y="492.5" />
+      <point x="384.0" y="229.0" />
+      <point x="72.50000000000003" y="0.0" />
+    </edge>
+    <edge source="Iterator.Demo" target="Iterator.ConcreteIterator" relationship="CREATE">
       <point x="-74.0" y="0.0" />
-      <point x="-7.0" y="654.5" />
-      <point x="-7.0" y="114.0" />
-      <point x="191.008" y="114.0" />
-      <point x="4.242424242590914E-4" y="44.0" />
-    </edge>
-    <edge source="Behavioral.Iterator.ConcreteCollection" target="Behavioral.Iterator.Iterator" relationship="DEPENDENCY">
-      <point x="-103.0" y="0.0" />
-      <point x="-7.0" y="430.5" />
-      <point x="-7.0" y="114.0" />
-      <point x="191.008" y="114.0" />
-      <point x="4.242424242590914E-4" y="44.0" />
-    </edge>
-    <edge source="Behavioral.Iterator.Demo" target="Behavioral.Iterator.ConcreteCollection" relationship="CREATE">
-      <point x="6.875" y="-44.5" />
-      <point x="-95.5" y="86.5" />
-    </edge>
-    <edge source="Behavioral.Iterator.ConcreteCollection" target="Behavioral.Iterator.Collection" relationship="REALIZATION">
-      <point x="-95.5" y="-86.5" />
-      <point x="51.625" y="58.0" />
-    </edge>
-    <edge source="Behavioral.Iterator.Collection" target="Behavioral.Iterator.Iterator" relationship="DEPENDENCY">
-      <point x="0.0" y="-58.0" />
-      <point x="89.5" y="114.0" />
-      <point x="191.008" y="114.0" />
-      <point x="4.242424242590914E-4" y="44.0" />
-    </edge>
-    <edge source="Behavioral.Iterator.ConcreteIterator" target="Behavioral.Iterator.Iterator" relationship="REALIZATION">
-      <point x="-118.49199999999999" y="-58.5" />
-      <point x="15.000424242424259" y="44.0" />
-    </edge>
-    <edge source="Behavioral.Iterator.ConcreteIterator" target="Behavioral.Iterator.ConcreteCollection" relationship="DEPENDENCY">
+      <point x="189.49999999999997" y="779.5" />
       <point x="0.0" y="58.5" />
-      <point x="87.875" y="-86.5" />
+    </edge>
+    <edge source="Iterator.ConcreteIterator" target="Iterator.Iterator" relationship="REALIZATION">
+      <point x="-62.5" y="-58.5" />
+      <point x="126.99999999999997" y="320.0" />
+      <point x="134.99999999999997" y="320.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Iterator.Demo" target="Iterator.ConcreteCollection" relationship="CREATE">
+      <point x="74.0" y="0.0" />
+      <point x="511.04891304347825" y="779.5" />
+      <point x="-15.0" y="143.5" />
+    </edge>
+    <edge source="Iterator.Demo" target="Iterator.Iterator" relationship="DEPENDENCY">
+      <point x="-74.0" y="15.0" />
+      <point x="36.99999999999997" y="794.5" />
+      <point x="36.99999999999997" y="229.0" />
+      <point x="-72.5" y="0.0" />
+    </edge>
+    <edge source="Iterator.ConcreteCollection" target="Iterator.Iterator" relationship="TO_ONE">
+      <point x="-22.0" y="-143.5" />
+      <point x="504.04891304347825" y="262.5" />
+      <point x="72.5" y="33.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="226.5" y="349.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="335.0" y="504.5" />
+  <SelectedNodes>
+    <node>Iterator.Demo</node>
+  </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>
-    <Category>Inner Classes</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
   </Categories>

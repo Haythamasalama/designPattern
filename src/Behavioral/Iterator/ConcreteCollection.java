@@ -2,30 +2,31 @@ package Behavioral.Iterator;
 
 public class ConcreteCollection<T> implements Collection<T> {
     private final T[] items;
-    private int size;
+    private int size = 0;
+    private Iterator<T> iterator;
 
     public ConcreteCollection(int size) {
-        items = (T[]) new Object[size];
-        this.size = 0;
+        this.items = (T[]) new Object[size];
     }
 
-    @Override
-    public Iterator<T> iterator() {
-        return new ConcreteIterator<>(this);
-    }
-
-    @Override
     public void add(T item) {
-        items[size] = item;
-        size++;
+        this.items[size++] = item;
     }
 
-    @Override
-    public int size() {
+    public int getSize() {
         return size;
     }
 
-    public T get(int index) {
-        return items[index];
+    public T[] getItems() {
+        return items;
+    }
+
+    @Override
+    public void createIterator(Iterator<T> iterator) {
+        this.iterator = iterator;
+    }
+
+    public Iterator<T> getIterator() {
+        return this.iterator;
     }
 }
