@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="150.0">Structural.Adapter.FlashDrive</node>
+    <node x="393.0" y="150.0">Structural.Adapter.SDMemoryCard</node>
+    <node x="360.0586419753086" y="0.0">Structural.Adapter.MemoryCard</node>
+    <node x="334.5" y="319.0">Structural.Adapter.Demo</node>
+    <node x="193.51697530864192" y="0.0">Structural.Adapter.USBDrive</node>
+    <node x="140.0" y="150.0">Structural.Adapter.USBCardReaderAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Adapter.Demo" target="Structural.Adapter.USBCardReaderAdapter" relationship="CREATE">
+      <point x="-43.0" y="-44.5" />
+      <point x="109.0" y="58.5" />
+    </edge>
+    <edge source="Structural.Adapter.SDMemoryCard" target="Structural.Adapter.MemoryCard" relationship="REALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="471.5" y="119.0" />
+      <point x="427.559" y="119.0" />
+      <point x="3.580246914225427E-4" y="44.0" />
+    </edge>
+    <edge source="Structural.Adapter.USBCardReaderAdapter" target="Structural.Adapter.USBDrive" relationship="DEPENDENCY">
+      <point x="0.0" y="58.5" />
+      <point x="256.5" y="293.0" />
+      <point x="311.0" y="293.0" />
+      <point x="311.0" y="326.5" />
+      <point x="-17.5" y="326.5" />
+      <point x="-17.5" y="44.0" />
+      <point x="-55.99997530864192" y="0.0" />
+    </edge>
+    <edge source="Structural.Adapter.Demo" target="Structural.Adapter.USBDrive" relationship="DEPENDENCY">
+      <point x="0.0" y="-44.5" />
+      <point x="408.5" y="293.0" />
+      <point x="311.0" y="293.0" />
+      <point x="311.0" y="326.5" />
+      <point x="-17.5" y="326.5" />
+      <point x="-17.5" y="44.0" />
+      <point x="-55.99997530864192" y="0.0" />
+    </edge>
+    <edge source="Structural.Adapter.Demo" target="Structural.Adapter.MemoryCard" relationship="DEPENDENCY">
+      <point x="74.0" y="0.0" />
+      <point x="567.5" y="363.5" />
+      <point x="567.5" y="44.0" />
+      <point x="67.5" y="0.0" />
+    </edge>
+    <edge source="Structural.Adapter.Demo" target="Structural.Adapter.FlashDrive" relationship="CREATE">
+      <point x="-74.0" y="0.0" />
+      <point x="60.0" y="363.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Structural.Adapter.FlashDrive" target="Structural.Adapter.USBDrive" relationship="REALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="60.0" y="59.0" />
+      <point x="-56.0" y="15.0" />
+    </edge>
+    <edge source="Structural.Adapter.USBCardReaderAdapter" target="Structural.Adapter.MemoryCard" relationship="REALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="256.5" y="119.0" />
+      <point x="427.559" y="119.0" />
+      <point x="3.580246914225427E-4" y="44.0" />
+    </edge>
+    <edge source="Structural.Adapter.Demo" target="Structural.Adapter.SDMemoryCard" relationship="CREATE">
+      <point x="63.0" y="-44.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Structural.Adapter.USBCardReaderAdapter" target="Structural.Adapter.USBDrive" relationship="TO_ONE">
+      <point x="-15.0" y="-58.5" />
+      <point x="-8.016975308641918" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.2999999999999998" showDependencies="true" x="358.7692307692307" y="240.13043478260886" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
