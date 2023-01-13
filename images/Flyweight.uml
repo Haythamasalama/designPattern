@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Flyweight</OriginalElement>
+  <nodes>
+    <node x="35.38888888888888" y="369.0">Structural.Flyweight.TreeFactory</node>
+    <node x="0.0" y="510.0">Structural.Flyweight.Demo</node>
+    <node x="19.62962962962962" y="0.0">Structural.Flyweight.Tree</node>
+    <node x="134.5185185185185" y="107.0">Structural.Flyweight.OakTree</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Flyweight.Demo" target="Structural.Flyweight.Tree" relationship="DEPENDENCY">
+      <point x="-37.0" y="-44.5" />
+      <point x="37.0" y="484.0" />
+      <point x="24.888888888888886" y="484.0" />
+      <point x="24.888888888888886" y="91.0" />
+      <point x="62.62962962962962" y="91.0" />
+      <point x="62.62962962962962" y="81.0" />
+      <point x="44.62962962962962" y="81.0" />
+      <point x="-50.0" y="30.0" />
+    </edge>
+    <edge source="Structural.Flyweight.TreeFactory" target="Structural.Flyweight.Tree" relationship="TO_MANY">
+      <point x="0.0" y="-44.5" />
+      <point x="129.88888888888889" y="342.0" />
+      <point x="103.0185185185185" y="342.0" />
+      <point x="103.0185185185185" y="91.0" />
+      <point x="94.62962962962962" y="91.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Structural.Flyweight.TreeFactory" target="Structural.Flyweight.OakTree" relationship="CREATE">
+      <point x="63.0" y="-44.5" />
+      <point x="192.88888888888889" y="342.0" />
+      <point x="220.0185185185185" y="342.0" />
+      <point x="0.0" y="101.5" />
+    </edge>
+    <edge source="Structural.Flyweight.OakTree" target="Structural.Flyweight.Tree" relationship="REALIZATION">
+      <point x="0.0" y="-101.5" />
+      <point x="220.0185185185185" y="91.0" />
+      <point x="144.62962962962962" y="91.0" />
+      <point x="50.0" y="30.0" />
+    </edge>
+    <edge source="Structural.Flyweight.Demo" target="Structural.Flyweight.TreeFactory" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="111.0" y="484.0" />
+      <point x="129.88888888888889" y="484.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Structural.Flyweight.TreeFactory" target="Structural.Flyweight.Tree" relationship="DEPENDENCY">
+      <point x="-63.0" y="-44.5" />
+      <point x="66.88888888888889" y="342.0" />
+      <point x="83.62962962962962" y="342.0" />
+      <point x="83.62962962962962" y="91.0" />
+      <point x="62.62962962962962" y="91.0" />
+      <point x="62.62962962962962" y="81.0" />
+      <point x="44.62962962962962" y="81.0" />
+      <point x="-50.0" y="30.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="142.5" y="299.5" />
+  <SelectedNodes>
+    <node>Structural.Flyweight.OakTree</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

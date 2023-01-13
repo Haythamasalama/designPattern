@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Command</OriginalElement>
+  <nodes>
+    <node x="181.33730158730157" y="-5.0">Behavioral.Command.Light</node>
+    <node x="229.49999999999997" y="166.0">Behavioral.Command.TurnOffLightCommand</node>
+    <node x="169.5079365079365" y="-133.5">Behavioral.Command.Command</node>
+    <node x="-43.5" y="166.0">Behavioral.Command.TurnOnLightCommand</node>
+    <node x="141.99603174603175" y="330.0">Behavioral.Command.Demo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Command.TurnOffLightCommand" target="Behavioral.Command.Command" relationship="REALIZATION">
+      <point x="-30.0" y="-44.5" />
+      <point x="305.5" y="133.0" />
+      <point x="319.837" y="133.0" />
+      <point x="319.837" y="-103.5" />
+      <point x="61.500063492063475" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Demo" target="Behavioral.Command.TurnOffLightCommand" relationship="CREATE">
+      <point x="21.003968253968225" y="-44.5" />
+      <point x="-98.50000000000003" y="44.5" />
+    </edge>
+    <edge source="Behavioral.Command.TurnOffLightCommand" target="Behavioral.Command.Light" relationship="DEPENDENCY">
+      <point x="-15.0" y="-44.5" />
+      <point x="320.5" y="171.0" />
+      <point x="226.837" y="171.0" />
+      <point x="-15.000301587301578" y="58.5" />
+    </edge>
+    <edge source="Behavioral.Command.TurnOnLightCommand" target="Behavioral.Command.Command" relationship="REALIZATION">
+      <point x="15.0" y="-44.5" />
+      <point x="77.0" y="133.0" />
+      <point x="319.837" y="133.0" />
+      <point x="319.837" y="-103.5" />
+      <point x="61.500063492063475" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Demo" target="Behavioral.Command.TurnOnLightCommand" relationship="CREATE">
+      <point x="-55.99603174603175" y="-44.5" />
+      <point x="98.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.Command.TurnOnLightCommand" target="Behavioral.Command.Light" relationship="TO_ONE">
+      <point x="0.0" y="-44.5" />
+      <point x="62.0" y="153.0" />
+      <point x="241.837" y="153.0" />
+      <point x="-3.0158730157836544E-4" y="58.5" />
+    </edge>
+    <edge source="Behavioral.Command.TurnOnLightCommand" target="Behavioral.Command.Light" relationship="DEPENDENCY">
+      <point x="-15.0" y="-44.5" />
+      <point x="47.0" y="171.0" />
+      <point x="226.837" y="171.0" />
+      <point x="-15.000301587301578" y="58.5" />
+    </edge>
+    <edge source="Behavioral.Command.Demo" target="Behavioral.Command.Light" relationship="CREATE">
+      <point x="-74.0" y="0.0" />
+      <point x="-61.0" y="374.5" />
+      <point x="-61.0" y="53.5" />
+      <point x="-60.5" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.TurnOffLightCommand" target="Behavioral.Command.Light" relationship="TO_ONE">
+      <point x="0.0" y="-44.5" />
+      <point x="335.5" y="153.0" />
+      <point x="241.837" y="153.0" />
+      <point x="-3.0158730157836544E-4" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4499999999999997" showDependencies="true" x="190.49999999999994" y="142.49999999999997" />
+  <SelectedNodes>
+    <node>Behavioral.Command.Command</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

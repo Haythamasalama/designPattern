@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Visitor</OriginalElement>
+  <nodes>
+    <node x="264.1387283236995" y="508.94797687861274">Behavioral.Visitor.Organization</node>
+    <node x="278.09341609739016" y="165.99999999999997">Behavioral.Visitor.FullTimeEmployee</node>
+    <node x="17.654635225083098" y="67.21387283236996">Behavioral.Visitor.Employee</node>
+    <node x="135.445836617621" y="708.4739884393063">Behavioral.Visitor.Demo</node>
+    <node x="530.6194276580839" y="166.0">Behavioral.Visitor.PartTimeEmployee</node>
+    <node x="-77.40668939393962" y="242.8265895953757">Behavioral.Visitor.EmployeeVisitor</node>
+    <node x="-55.09856610693538" y="479.94797687861274">Behavioral.Visitor.SalaryCalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Visitor.Demo" target="Behavioral.Visitor.FullTimeEmployee" relationship="CREATE">
+      <point x="0.0" y="-44.5" />
+      <point x="209.445836617621" y="366.0" />
+      <point x="-115.0" y="98.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.SalaryCalculator" target="Behavioral.Visitor.FullTimeEmployee" relationship="DEPENDENCY">
+      <point x="-100.99956060606067" y="0.0" />
+      <point x="42.512" y="567.4479768786127" />
+      <point x="42.512" y="351.0" />
+      <point x="285.59385549132946" y="351.0" />
+      <point x="-107.4995606060607" y="101.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.Organization" target="Behavioral.Visitor.Employee" relationship="TO_MANY">
+      <point x="-102.0" y="0.0" />
+      <point x="-17.5" y="567.4479768786127" />
+      <point x="-17.5" y="112.21387283236996" />
+      <point x="-100.0" y="15.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.Organization" target="Behavioral.Visitor.SalaryCalculator" relationship="CREATE">
+      <point x="94.5" y="-58.5" />
+      <point x="460.6387283236995" y="970.0" />
+      <point x="-12.01712671299606" y="970.0" />
+      <point x="-57.91856060606068" y="87.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.SalaryCalculator" target="Behavioral.Visitor.PartTimeEmployee" relationship="DEPENDENCY">
+      <point x="4.39393939331012E-4" y="-87.5" />
+      <point x="45.90187328700395" y="484.0" />
+      <point x="538.1191170520235" y="484.0" />
+      <point x="-108.50031060606034" y="-101.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.PartTimeEmployee" target="Behavioral.Visitor.Employee" relationship="REALIZATION">
+      <point x="115.99968939393955" y="0.0" />
+      <point x="532.669" y="267.5" />
+      <point x="532.669" y="86.0" />
+      <point x="117.65471098265886" y="86.0" />
+      <point x="7.575757575750686E-5" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.Demo" target="Behavioral.Visitor.Organization" relationship="CREATE">
+      <point x="62.19289170607851" y="-44.5" />
+      <point x="-94.5" y="58.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.Demo" target="Behavioral.Visitor.PartTimeEmployee" relationship="CREATE">
+      <point x="74.0" y="0.0" />
+      <point x="646.6194276580839" y="752.9739884393063" />
+      <point x="0.0" y="101.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.Organization" target="Behavioral.Visitor.Employee" relationship="DEPENDENCY">
+      <point x="-102.0" y="-15.0" />
+      <point x="-32.5" y="552.4479768786127" />
+      <point x="-32.5" y="97.21387283236996" />
+      <point x="-100.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.SalaryCalculator" target="Behavioral.Visitor.EmployeeVisitor" relationship="REALIZATION">
+      <point x="-14.999560606060669" y="-87.5" />
+      <point x="30.90187328700395" y="612.5" />
+      <point x="102.0" y="612.5" />
+      <point x="78.40668939393962" y="44.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.Employee" target="Behavioral.Visitor.EmployeeVisitor" relationship="DEPENDENCY">
+      <point x="100.00007575757576" y="0.0" />
+      <point x="259.0" y="97.21387283236996" />
+      <point x="259.0" y="161.5" />
+      <point x="23.59299999999999" y="161.5" />
+      <point x="-3.1060606039545746E-4" y="-44.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.FullTimeEmployee" target="Behavioral.Visitor.Employee" relationship="REALIZATION">
+      <point x="4.393939393025903E-4" y="-101.5" />
+      <point x="393.09385549132946" y="86.0" />
+      <point x="117.65471098265886" y="86.0" />
+      <point x="7.575757575750686E-5" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.EmployeeVisitor" target="Behavioral.Visitor.FullTimeEmployee" relationship="DEPENDENCY">
+      <point x="14.999689393939605" y="-44.0" />
+      <point x="38.59299999999999" y="351.0" />
+      <point x="285.59385549132946" y="351.0" />
+      <point x="-107.4995606060607" y="101.5" />
+    </edge>
+    <edge source="Behavioral.Visitor.FullTimeEmployee" target="Behavioral.Visitor.EmployeeVisitor" relationship="DEPENDENCY">
+      <point x="-114.9995606060607" y="0.0" />
+      <point x="259.0" y="267.5" />
+      <point x="259.0" y="161.5" />
+      <point x="23.59299999999999" y="161.5" />
+      <point x="-3.1060606039545746E-4" y="-44.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.PartTimeEmployee" target="Behavioral.Visitor.EmployeeVisitor" relationship="DEPENDENCY">
+      <point x="-3.1060606033861404E-4" y="-101.5" />
+      <point x="646.6191170520235" y="332.5" />
+      <point x="259.0" y="332.5" />
+      <point x="259.0" y="161.5" />
+      <point x="23.59299999999999" y="161.5" />
+      <point x="-3.1060606039545746E-4" y="-44.0" />
+    </edge>
+    <edge source="Behavioral.Visitor.EmployeeVisitor" target="Behavioral.Visitor.PartTimeEmployee" relationship="DEPENDENCY">
+      <point x="-3.1060606039545746E-4" y="44.0" />
+      <point x="23.59299999999999" y="484.0" />
+      <point x="538.1191170520235" y="484.0" />
+      <point x="-108.50031060606034" y="-101.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9642470205850487" showDependencies="true" x="342.5" y="518.5" />
+  <SelectedNodes>
+    <node>Behavioral.Visitor.SalaryCalculator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

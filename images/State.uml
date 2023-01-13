@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.State</OriginalElement>
+  <nodes>
+    <node x="554.0108695652173" y="485.0">Behavioral.State.ApprovingState</node>
+    <node x="364.9103260869565" y="626.0">Behavioral.State.Demo</node>
+    <node x="269.5108695652174" y="108.0">Behavioral.State.State</node>
+    <node x="347.0108695652174" y="485.0">Behavioral.State.PressedState</node>
+    <node x="-106.0" y="485.0">Behavioral.State.PendingState</node>
+    <node x="127.01086956521732" y="485.0">Behavioral.State.CancelingState</node>
+    <node x="131.01086956521732" y="222.0">Behavioral.State.Transaction</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.State.CancelingState" target="Behavioral.State.State" relationship="GENERALIZATION">
+      <point x="-14.999869565217324" y="-44.5" />
+      <point x="212.011" y="450.0" />
+      <point x="325.5" y="450.0" />
+      <point x="-17.510869565217376" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.Transaction" target="Behavioral.State.State" relationship="TO_ONE">
+      <point x="-15.0" y="-73.5" />
+      <point x="180.01086956521732" y="137.5" />
+      <point x="-73.5" y="-15.0" />
+    </edge>
+    <edge source="Behavioral.State.Demo" target="Behavioral.State.ApprovingState" relationship="CREATE">
+      <point x="74.0" y="0.0" />
+      <point x="655.5108695652173" y="670.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.State" target="Behavioral.State.Transaction" relationship="TO_ONE">
+      <point x="-73.5" y="0.0" />
+      <point x="195.01086956521732" y="152.5" />
+      <point x="0.0" y="-73.5" />
+    </edge>
+    <edge source="Behavioral.State.PressedState" target="Behavioral.State.Transaction" relationship="DEPENDENCY">
+      <point x="1.3043478264762598E-4" y="-44.5" />
+      <point x="440.511" y="415.0" />
+      <point x="195.011" y="415.0" />
+      <point x="1.304347826760477E-4" y="73.5" />
+    </edge>
+    <edge source="Behavioral.State.Transaction" target="Behavioral.State.PendingState" relationship="CREATE">
+      <point x="-64.0" y="0.0" />
+      <point x="-40.5" y="295.5" />
+      <point x="-30.0" y="-44.5" />
+    </edge>
+    <edge source="Behavioral.State.PendingState" target="Behavioral.State.State" relationship="GENERALIZATION">
+      <point x="-15.0" y="-44.5" />
+      <point x="-25.5" y="450.0" />
+      <point x="325.5" y="450.0" />
+      <point x="-17.510869565217376" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.Transaction" target="Behavioral.State.State" relationship="DEPENDENCY">
+      <point x="15.0" y="-73.5" />
+      <point x="210.01086956521732" y="167.5" />
+      <point x="-73.5" y="15.0" />
+    </edge>
+    <edge source="Behavioral.State.State" target="Behavioral.State.Transaction" relationship="DEPENDENCY">
+      <point x="1.3043478264762598E-4" y="44.5" />
+      <point x="343.011" y="415.0" />
+      <point x="195.011" y="415.0" />
+      <point x="1.304347826760477E-4" y="73.5" />
+    </edge>
+    <edge source="Behavioral.State.ApprovingState" target="Behavioral.State.State" relationship="GENERALIZATION">
+      <point x="-14.999869565217296" y="-44.5" />
+      <point x="640.511" y="450.0" />
+      <point x="325.5" y="450.0" />
+      <point x="-17.510869565217376" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.CancelingState" target="Behavioral.State.Transaction" relationship="DEPENDENCY">
+      <point x="1.304347826760477E-4" y="-44.5" />
+      <point x="227.011" y="415.0" />
+      <point x="195.011" y="415.0" />
+      <point x="1.304347826760477E-4" y="73.5" />
+    </edge>
+    <edge source="Behavioral.State.PressedState" target="Behavioral.State.State" relationship="GENERALIZATION">
+      <point x="-14.999869565217352" y="-44.5" />
+      <point x="425.511" y="450.0" />
+      <point x="325.5" y="450.0" />
+      <point x="-17.510869565217376" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.Demo" target="Behavioral.State.Transaction" relationship="CREATE">
+      <point x="-74.0" y="0.0" />
+      <point x="-123.5" y="670.5" />
+      <point x="-123.5" y="280.5" />
+      <point x="-64.0" y="-15.0" />
+    </edge>
+    <edge source="Behavioral.State.Demo" target="Behavioral.State.PressedState" relationship="CREATE">
+      <point x="1.6005434782608745" y="-44.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.State.ApprovingState" target="Behavioral.State.Transaction" relationship="DEPENDENCY">
+      <point x="1.304347827044694E-4" y="-44.5" />
+      <point x="655.511" y="415.0" />
+      <point x="195.011" y="415.0" />
+      <point x="1.304347826760477E-4" y="73.5" />
+    </edge>
+    <edge source="Behavioral.State.PendingState" target="Behavioral.State.Transaction" relationship="DEPENDENCY">
+      <point x="0.0" y="-44.5" />
+      <point x="-10.5" y="415.0" />
+      <point x="195.011" y="415.0" />
+      <point x="1.304347826760477E-4" y="73.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="317.0" y="411.5" />
+  <SelectedNodes>
+    <node>Behavioral.State.Transaction</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

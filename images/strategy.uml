@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Strategy</OriginalElement>
+  <nodes>
+    <node x="308.0" y="153.0">Behavioral.Strategy.ConsoleLogger</node>
+    <node x="0.0" y="110.0">Behavioral.Strategy.Log</node>
+    <node x="158.00000000000003" y="10.0">Behavioral.Strategy.Logger</node>
+    <node x="148.99999999999997" y="335.0">Behavioral.Strategy.Demo</node>
+    <node x="158.0" y="153.0">Behavioral.Strategy.FileLogger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Strategy.Log" target="Behavioral.Strategy.Logger" relationship="DEPENDENCY">
+      <point x="-34.5" y="-87.5" />
+      <point x="34.5" y="90.0" />
+      <point x="179.66666666666669" y="90.0" />
+      <point x="-43.333333333333336" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Demo" target="Behavioral.Strategy.FileLogger" relationship="CREATE">
+      <point x="2.8421709430404007E-14" y="-44.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Log" target="Behavioral.Strategy.Logger" relationship="TO_ONE">
+      <point x="34.5" y="-87.5" />
+      <point x="103.5" y="90.0" />
+      <point x="223.00000000000003" y="90.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Demo" target="Behavioral.Strategy.Log" relationship="CREATE">
+      <point x="2.8421709430404007E-14" y="-44.5" />
+      <point x="223.0" y="310.0" />
+      <point x="69.0" y="310.0" />
+      <point x="0.0" y="87.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.ConsoleLogger" target="Behavioral.Strategy.Logger" relationship="REALIZATION">
+      <point x="0.0" y="-44.5" />
+      <point x="384.0" y="90.0" />
+      <point x="311.51562500000006" y="90.0" />
+      <point x="311.51562500000006" y="80.0" />
+      <point x="266.33333333333337" y="80.0" />
+      <point x="43.33333333333334" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.FileLogger" target="Behavioral.Strategy.Logger" relationship="REALIZATION">
+      <point x="0.0" y="-44.5" />
+      <point x="223.0" y="90.0" />
+      <point x="311.51562500000006" y="90.0" />
+      <point x="311.51562500000006" y="80.0" />
+      <point x="266.33333333333337" y="80.0" />
+      <point x="43.33333333333334" y="30.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Demo" target="Behavioral.Strategy.ConsoleLogger" relationship="CREATE">
+      <point x="2.8421709430404007E-14" y="-44.5" />
+      <point x="223.0" y="310.0" />
+      <point x="384.0" y="310.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="230.0" y="212.0" />
+  <SelectedNodes>
+    <node>Behavioral.Strategy.Logger</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

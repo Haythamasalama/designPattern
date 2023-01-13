@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.ChainOfResponsibility</OriginalElement>
+  <nodes>
+    <node x="80.25" y="0.0">Behavioral.ChainOfResponsibility.Middleware</node>
+    <node x="108.875" y="423.25">Behavioral.ChainOfResponsibility.Demo</node>
+    <node x="238.5" y="198.0">Behavioral.ChainOfResponsibility.WhitelistIpMiddleware</node>
+    <node x="460.5" y="198.0">Behavioral.ChainOfResponsibility.AuthenticateMiddleware</node>
+    <node x="-61.5" y="209.0">Behavioral.ChainOfResponsibility.ThrottlingMiddleware</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.ChainOfResponsibility.Demo" target="Behavioral.ChainOfResponsibility.Middleware" relationship="DEPENDENCY">
+      <point x="-37.0" y="-44.5" />
+      <point x="145.875" y="346.0" />
+      <point x="0.0" y="346.0" />
+      <point x="0.0" y="167.0" />
+      <point x="125.0" y="167.0" />
+      <point x="-44.75" y="73.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.Demo" target="Behavioral.ChainOfResponsibility.WhitelistIpMiddleware" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="219.875" y="346.0" />
+      <point x="339.5" y="346.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ThrottlingMiddleware" target="Behavioral.ChainOfResponsibility.Middleware" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="42.5" y="177.0" />
+      <point x="339.5" y="177.0" />
+      <point x="339.5" y="167.0" />
+      <point x="214.5" y="167.0" />
+      <point x="44.75" y="73.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.WhitelistIpMiddleware" target="Behavioral.ChainOfResponsibility.Middleware" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="339.5" y="167.0" />
+      <point x="214.5" y="167.0" />
+      <point x="44.75" y="73.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.Demo" target="Behavioral.ChainOfResponsibility.AuthenticateMiddleware" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="219.875" y="346.0" />
+      <point x="339.5" y="346.0" />
+      <point x="339.5" y="336.0" />
+      <point x="568.0" y="336.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.Demo" target="Behavioral.ChainOfResponsibility.ThrottlingMiddleware" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="219.875" y="346.0" />
+      <point x="339.5" y="346.0" />
+      <point x="339.5" y="336.0" />
+      <point x="42.5" y="336.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.AuthenticateMiddleware" target="Behavioral.ChainOfResponsibility.Middleware" relationship="GENERALIZATION">
+      <point x="0.0" y="-58.5" />
+      <point x="568.0" y="177.0" />
+      <point x="339.5" y="177.0" />
+      <point x="339.5" y="167.0" />
+      <point x="214.5" y="167.0" />
+      <point x="44.75" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.6" showDependencies="true" x="340.625" y="295.125" />
+  <SelectedNodes>
+    <node>Behavioral.ChainOfResponsibility.Demo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

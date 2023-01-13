@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.TemplateMethod</OriginalElement>
+  <nodes>
+    <node x="71.82352941176471" y="0.0">Behavioral.TemplateMethod.FileImporter</node>
+    <node x="148.98529411764707" y="366.0">Behavioral.TemplateMethod.Demo</node>
+    <node x="10.5" y="225.0">Behavioral.TemplateMethod.CsvFileImporter</node>
+    <node x="185.5" y="225.0">Behavioral.TemplateMethod.ExcelFileImporter</node>
+    <node x="372.5" y="225.0">Behavioral.TemplateMethod.WordFileImporter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.TemplateMethod.WordFileImporter" target="Behavioral.TemplateMethod.FileImporter" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.5" />
+      <point x="457.5" y="204.0" />
+      <point x="269.0" y="204.0" />
+      <point x="269.0" y="194.0" />
+      <point x="173.8235294117647" y="194.0" />
+      <point x="34.0" y="86.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.Demo" target="Behavioral.TemplateMethod.ExcelFileImporter" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="259.9852941176471" y="345.0" />
+      <point x="357.4852941176471" y="345.0" />
+      <point x="357.4852941176471" y="335.0" />
+      <point x="269.0" y="335.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.CsvFileImporter" target="Behavioral.TemplateMethod.FileImporter" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.5" />
+      <point x="88.0" y="204.0" />
+      <point x="269.0" y="204.0" />
+      <point x="269.0" y="194.0" />
+      <point x="173.8235294117647" y="194.0" />
+      <point x="34.0" y="86.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.Demo" target="Behavioral.TemplateMethod.WordFileImporter" relationship="CREATE">
+      <point x="37.0" y="-44.5" />
+      <point x="259.9852941176471" y="345.0" />
+      <point x="357.4852941176471" y="345.0" />
+      <point x="357.4852941176471" y="335.0" />
+      <point x="457.5" y="335.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.Demo" target="Behavioral.TemplateMethod.FileImporter" relationship="DEPENDENCY">
+      <point x="-37.0" y="-44.5" />
+      <point x="185.98529411764707" y="345.0" />
+      <point x="0.0" y="345.0" />
+      <point x="0.0" y="194.0" />
+      <point x="105.82352941176471" y="194.0" />
+      <point x="-34.0" y="86.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.ExcelFileImporter" target="Behavioral.TemplateMethod.FileImporter" relationship="GENERALIZATION">
+      <point x="0.0" y="-44.5" />
+      <point x="269.0" y="194.0" />
+      <point x="173.8235294117647" y="194.0" />
+      <point x="34.0" y="86.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="271.5" y="227.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
