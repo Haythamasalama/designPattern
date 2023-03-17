@@ -1,4 +1,4 @@
-# Strategy Designe Pattern
+# Strategy Pattern
 
 Allows for the selection of an algorithm at runtime.
 

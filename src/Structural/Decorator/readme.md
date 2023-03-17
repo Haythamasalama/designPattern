@@ -1,4 +1,4 @@
-# Decorator Designe Pattern
+# Decorator Pattern
 
 Allows for the dynamic addition of behavior to objects.
 

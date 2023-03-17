@@ -1,4 +1,4 @@
-# Prototype Designe Pattern
+# Prototype Pattern
 
 Creates new objects by cloning an existing object.
 

@@ -1,4 +1,4 @@
-# Facade Designe Pattern
+# Facade Pattern
 
 Provides a simplified interface to a complex system.
 

@@ -1,4 +1,4 @@
-# Designe Pattern
+# Visitor Pattern
 
 Allows for the addition of new operations to a set of classes without modifying them.
 

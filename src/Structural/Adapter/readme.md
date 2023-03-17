@@ -1,4 +1,4 @@
-# Adapter Design Pattern
+# Adapter Pattern
 
 Allows for the adaptation of one interface to another, allowing classes to work together that couldn't otherwise because
 of incompatible interfaces.

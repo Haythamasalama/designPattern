@@ -1,4 +1,4 @@
-# Template Method Designe Pattern
+# Template Method Pattern
 
 Defines the skeleton of an algorithm in a method, allowing subclasses to provide specific implementation details.
 

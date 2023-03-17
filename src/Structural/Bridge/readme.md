@@ -1,4 +1,4 @@
-# Bridge Design Pattern
+# Bridge Pattern
 
 Separates an object's interface from its implementation, allowing for the two to vary independently.
 

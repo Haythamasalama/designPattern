@@ -1,4 +1,4 @@
-# State Designe Pattern
+# State Pattern
 
 Allows an object to change its behavior based on its internal state.
 

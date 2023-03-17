@@ -1,4 +1,4 @@
-# Factory Designe Pattern
+# Factory Pattern
 
 Creates object without specifying the exact class of object that will be created.
 

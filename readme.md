@@ -1,4 +1,4 @@
-# Designe Pattern
+# Design Pattern
 
 Repo for Design Pattern Examples in Java
 

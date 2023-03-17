@@ -1,4 +1,4 @@
-# Composite Design Pattern
+# Composite Pattern
 
 Allows for the composition of objects into tree structures to represent part-whole hierarchies.
 

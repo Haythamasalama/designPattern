@@ -1,4 +1,4 @@
-# Builder Designe Pattern
+# Builder Pattern
 
 Separates the construction of an object from its representation, allowing for the same construction process to create
 different representations.

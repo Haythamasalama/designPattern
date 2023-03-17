@@ -1,4 +1,4 @@
-# Flyweight Designe Pattern
+# Flyweight Pattern
 
 Allows for the efficient usage of large numbers of fine-grained objects.
 

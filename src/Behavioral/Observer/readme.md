@@ -1,4 +1,4 @@
-# Observer Designe Pattern
+# Observer Pattern
 
 Allows for a one-to-many relationship between objects, where one object is the subject and the many objects are
 observers.
