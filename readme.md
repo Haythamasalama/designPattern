@@ -31,3 +31,10 @@ Repo for Design Pattern Examples in Java
 - [Flyweight](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Flyweight)
 - [Proxy](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Proxy)
 - [Decorator](https://github.com/HaythamaSalama/javaDesignPattern/tree/master/src/Structural/Decorator)
+
+
+### ❤  Sponsor me if you find the work valuable
+
+<a href="https://www.buymeacoffee.com/haythamasalama" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
